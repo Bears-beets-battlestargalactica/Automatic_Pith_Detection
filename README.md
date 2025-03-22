@@ -1,4 +1,4 @@
-# 🌲 Automatic Pith Detection in Tree Cross-Section Images Using Deep Learning
+# Automatic Pith Detection in Tree Cross-Section Images Using Deep Learning
 
 This repository supports the research project:
 
@@ -10,7 +10,7 @@ This work investigates the use of deep learning models to automate **pith detect
 
 ---
 
-## 📚 Project Overview
+##  Project Overview
 
 - Evaluate five state-of-the-art deep learning models.
 - Compare object detection vs. segmentation approaches.
@@ -19,7 +19,7 @@ This work investigates the use of deep learning models to automate **pith detect
 
 ---
 
-## 🧠 Motivation
+##  Motivation
 
 Pith detection enables:
 
@@ -33,7 +33,7 @@ Pith detection enables:
 
 ---
 
-## 🧠 Models Implemented
+## Models Implemented
 
 | Model             | Type            | Highlights |
 |------------------|------------------|------------|
@@ -53,11 +53,11 @@ Pith detection enables:
 - **U-Net** was efficient and accurate on regular growth rings.
 - **Mask R-CNN**, initially underperforming due to overlapping predictions, improved significantly when **NMS** was applied.
 
-> 🧠 Mask R-CNN trained on a **smaller dataset (64 images)** outperformed a version trained on a larger dataset when tested on **oak tree images**, showing the importance of dataset quality.
+>  Mask R-CNN trained on a **smaller dataset (64 images)** outperformed a version trained on a larger dataset when tested on **oak tree images**, showing the importance of dataset quality.
 
 ---
 
-## ⚙️ Technical Contributions
+## Technical Contributions
 
 - Custom training loops for all models.
 - Integrated augmentation (flips, rotations, color jittering, scaling).
@@ -67,7 +67,7 @@ Pith detection enables:
 
 ---
 
-## 📊 Evaluation Metrics
+## Evaluation Metrics
 
 All models were evaluated using:
 
@@ -79,7 +79,7 @@ All models were evaluated using:
 
 ---
 
-## 🧪 Experimental Insight
+## Experimental Insight
 
 The models were tested for generalization using a held-out oak dataset:
 
@@ -88,7 +88,7 @@ The models were tested for generalization using a held-out oak dataset:
 
 ---
 
-## 📈 Model Behavior
+## Model Behavior
 
 - **Swin Transformer** showed slow convergence but the best final performance.
 - **YOLOv9** converged rapidly but plateaued early (underfitting).
@@ -100,7 +100,7 @@ The models were tested for generalization using a held-out oak dataset:
 
 >Tree Ring Lab, OSU – Oak image dataset
 ---
-## 📝 Citation
+## Citation
 
 If you use this repository or findings in your work, please cite:
 
