@@ -5,6 +5,7 @@ This repository supports the research project:
 > **Automatic Pith Detection in Tree Cross-Section Images Using Deep Learning**  
 > Tzu-I Liao, Mahmoud Fakhry, Jibin Yesudas Varghese  
 > Oregon State University, 2024
+> [View Paper](Paper/_Automatic_Pith_Detection_DL_-2.pdf)
 
 This work investigates the use of deep learning models to automate **pith detection** — the process of locating the center of a tree cross-section. Accurate pith detection is essential in forestry, dendrochronology, and industrial wood processing. The project aims to replace manual, error-prone methods with scalable, data-driven solutions.
 
